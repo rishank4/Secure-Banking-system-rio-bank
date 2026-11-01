@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "id": "usr_mgr_01",
+      "username": "rajesh.sharma@riobanking.in",
+      "name": "Rajesh Sharma",
+      "role": "manager",
+      "designation": "Vice President & Branch Manager",
+      "branch": "Nariman Point Flagship (RIOB0001042)",
+      "avatar": "RS"
+    },
+    {
+      "id": "usr_emp_02",
+      "username": "priya.nair@riobanking.in",
+      "name": "Priya Nair",
+      "role": "employee",
+      "designation": "Senior Banking Operations Officer",
+      "branch": "Nariman Point Flagship (RIOB0001042)",
+      "avatar": "PN"
+    },
+    {
+      "id": "usr_cust_03",
+      "username": "aarav.patel@riobanking.in",
+      "name": "Aarav Patel",
+      "role": "customer",
+      "accountNumber": "RIOB-4091-8821",
+      "accountType": "Rio Premier Savings",
+      "balance": 845250.00,
+      "fdBalance": 1500000.00,
+      "pan": "ABCDE1234F",
+      "upiId": "aaravpatel@rio",
+      "avatar": "AP"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust_101",
+      "name": "Aarav Patel",
+      "email": "aarav.patel@riobanking.in",
+      "phone": "+91 98201 44821",
+      "accountNumber": "RIOB-4091-8821",
+      "accountType": "Premier Savings",
+      "balance": 845250.00,
+      "city": "Mumbai",
+      "pan": "ABCDE1234F",
+      "aadhaar": "•••• •••• 9012",
+      "kycStatus": "VERIFIED",
+      "riskCategory": "Low"
+    },
+    {
+      "id": "cust_102",
+      "name": "Ananya Desai",
+      "email": "ananya.desai@techcorp.in",
+      "phone": "+91 99302 11983",
+      "accountNumber": "RIOB-5102-3341",
+      "accountType": "Current Account - Biz",
+      "balance": 1420000.00,
+      "city": "Bengaluru",
+      "pan": "BKSPD8902G",
+      "aadhaar": "•••• •••• 4123",
+      "kycStatus": "VERIFIED",
+      "riskCategory": "Low"
+    },
+    {
+      "id": "cust_103",
+      "name": "Vikramaditya Singhania",
+      "email": "v.singhania@heritageholdings.in",
+      "phone": "+91 98110 55670",
+      "accountNumber": "RIOB-9921-0012",
+      "accountType": "Private Wealth Escrow",
+      "balance": 12580000.00,
+      "city": "New Delhi",
+      "pan": "ZXCVB9912M",
+      "aadhaar": "•••• •••• 8841",
+      "kycStatus": "VERIFIED",
+      "riskCategory": "Medium"
+    },
+    {
+      "id": "cust_104",
+      "name": "Sunita Rao",
+      "email": "sunita.rao@ecolabs.org",
+      "phone": "+91 97400 22319",
+      "accountNumber": "RIOB-3312-7749",
+      "accountType": "Standard Savings",
+      "balance": 210400.00,
+      "city": "Hyderabad",
+      "pan": "MNOPQ3456K",
+      "aadhaar": "•••• •••• 3392",
+      "kycStatus": "PENDING_REVERIFICATION",
+      "riskCategory": "Low"
+    }
+  ],
+  "approvals": [
+    {
+      "id": "APPR-101",
+      "type": "High-Value RTGS Release",
+      "beneficiary": "Tata Steel Subcontractor Consortium",
+      "accountNumber": "RIOB-5102-3341",
+      "amount": 3500000.00,
+      "requester": "Priya Nair (Officer)",
+      "date": "Today, 10:30 AM",
+      "status": "PENDING",
+      "reason": "Quarterly procurement clearance",
+      "riskRating": "Medium (₹35L)"
+    },
+    {
+      "id": "APPR-102",
+      "type": "Commercial OD Limit Enhancement",
+      "beneficiary": "Zomato Quick Logistics Hub",
+      "accountNumber": "RIOB-9921-0012",
+      "amount": 1500000.00,
+      "requester": "Anil Verma (Trade Desk)",
+      "date": "Today, 11:15 AM",
+      "status": "PENDING",
+      "reason": "Festive seasonal inventory buffer",
+      "riskRating": "Low (Audited Balance Sheet)"
+    },
+    {
+      "id": "APPR-103",
+      "type": "Treasury Escrow Wire",
+      "beneficiary": "Singhania Heritage Trust",
+      "accountNumber": "RIOB-9921-0012",
+      "amount": 4850000.00,
+      "requester": "Vikramaditya Singhania",
+      "date": "Today, 12:40 PM",
+      "status": "PENDING",
+      "reason": "Commercial property advance settlement",
+      "riskRating": "High (Dual-Auth Mandate)"
+    },
+    {
+      "id": "APPR-104",
+      "type": "Clean Energy Term Loan Disbursement",
+      "beneficiary": "EcoLabs Solar Innovations",
+      "accountNumber": "RIOB-3312-7749",
+      "amount": 1800000.00,
+      "requester": "Sunita Rao",
+      "date": "Yesterday, 04:50 PM",
+      "status": "PENDING",
+      "reason": "Equipment acquisition tranche 2",
+      "riskRating": "Medium (Collateral Pledged)"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN-9941",
+      "accountNumber": "RIOB-4091-8821",
+      "title": "Infosys Ltd - Monthly Salary",
+      "amount": 285000.00,
+      "type": "CREDIT",
+      "channel": "NEFT",
+      "category": "Salary",
+      "timestamp": "Today, 06:15 AM",
+      "status": "COMPLETED",
+      "balanceAfter": 845250.00
+    },
+    {
+      "id": "TXN-9938",
+      "accountNumber": "RIOB-4091-8821",
+      "title": "Tata Power Mumbai Electricity Bill",
+      "amount": -4320.00,
+      "type": "DEBIT",
+      "channel": "Bharat BillPay",
+      "category": "Utilities",
+      "timestamp": "Today, 09:30 AM",
+      "status": "COMPLETED",
+      "balanceAfter": 560250.00
+    },
+    {
+      "id": "TXN-9932",
+      "accountNumber": "RIOB-4091-8821",
+      "title": "Swiggy Gourmet Diners",
+      "amount": -1850.00,
+      "type": "DEBIT",
+      "channel": "UPI / PhonePe",
+      "category": "Dining",
+      "timestamp": "Yesterday, 08:45 PM",
+      "status": "COMPLETED",
+      "balanceAfter": 564570.00
+    },
+    {
+      "id": "TXN-9925",
+      "accountNumber": "RIOB-4091-8821",
+      "title": "HDFC Top 100 Equity Mutual Fund SIP",
+      "amount": -25000.00,
+      "type": "DEBIT",
+      "channel": "Auto-Debit NACH",
+      "category": "Investments",
+      "timestamp": "28 Oct 2026",
+      "status": "COMPLETED",
+      "balanceAfter": 566420.00
+    },
+    {
+      "id": "TXN-9918",
+      "accountNumber": "RIOB-4091-8821",
+      "title": "Reliance Retail Smart Bazaar",
+      "amount": -6410.00,
+      "type": "DEBIT",
+      "channel": "Rio Platinum RuPay",
+      "category": "Groceries",
+      "timestamp": "27 Oct 2026",
+      "status": "COMPLETED",
+      "balanceAfter": 591420.00
+    },
+    {
+      "id": "TXN-9904",
+      "accountNumber": "RIOB-4091-8821",
+      "title": "Quarterly Savings Interest Credit",
+      "amount": 14280.00,
+      "type": "CREDIT",
+      "channel": "System Automated",
+      "category": "Interest",
+      "timestamp": "25 Oct 2026",
+      "status": "COMPLETED",
+      "balanceAfter": 597830.00
+    }
+  ]
+}
+
